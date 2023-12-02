@@ -1,5 +1,5 @@
-# StegnoScan
-StegnoScan is a Python-based digital forensics tool designed for steganography analysis and forensic examinations. This versatile tool assists in uncovering hidden information within various file types while providing a range of forensic analysis capabilities.
+# SteganoScan
+SteganoScan is a Python-based digital forensics tool designed for steganography analysis and forensic examinations. This versatile tool assists in uncovering hidden information within various file types while providing a range of forensic analysis capabilities.
 
 ## Features:
 Steganography Analysis: Detects and extracts concealed data within images, audio, videos, and documents.
@@ -27,7 +27,7 @@ Foremost Analysis: Assist in file carving and data recovery from digital media, 
 
 Zsteg Analysis: Detect hidden data in images through LSB steganography, revealing covert communication payloads.
 
-## Why StegnoScan?
+## Why SteganoScan?
 Security Enhancement: Reveals hidden content, fortifying security measures against covert communication methods.
 
 Forensic Assistance: Aids in uncovering concealed evidence or activities in forensic investigations.
@@ -37,17 +37,17 @@ Versatility: Supports various file formats for steganographic and forensic analy
 ## Usage:
 Installation: Ensure Python and required libraries are installed (see requirements.txt).
 ###### pip install -r requirements.txt
-Run StegnoScan: Execute the python file and follow the prompts to input file paths and select analysis options.
-###### python StegnoScan.py
+Run SteganoScan: Execute the python file and follow the prompts to input file paths and select analysis options.
+###### python SteganoScan.py
 Analysis Results: View extracted information or forensic analysis outputs for the chosen file.
 
 ## Limitations:
 Effectiveness may vary based on the file type and steganographic method used.
-Specific tools within StegnoScan may be more suitable for certain file formats.
+Specific tools within SteganoScan may be more suitable for certain file formats.
 
 ## Requirements:
 Python 3.6 or above
 Libraries: subprocess, os
 
 ## Disclaimer:
-StegnoScan is intended for educational and forensic purposes. Users should comply with legal regulations and ethical considerations. The tool's effectiveness may differ based on file types and hidden data nature.
+SteganoScan is intended for educational and forensic purposes. Users should comply with legal regulations and ethical considerations. The tool's effectiveness may differ based on file types and hidden data nature.
