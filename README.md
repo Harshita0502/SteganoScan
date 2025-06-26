@@ -109,6 +109,17 @@ SteganoScan/
 ├── output/            # Stores exported results
 └── README.md          # Project documentation
 ```
+## POC:
+Automated Download:
+
+SteganoScan Initialisation:
+
+Menu Driven Tool:
+
+Demo Histogram Scan:
+
+Demo Stegsolve Scan:
+
 
 ## 💡 Technical Learning & Development Takeaways
 This project strengthened my understanding of:
