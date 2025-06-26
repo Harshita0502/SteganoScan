@@ -1,53 +1,129 @@
-# SteganoScan
-SteganoScan is a Python-based digital forensics tool designed for steganography analysis and forensic examinations. This versatile tool assists in uncovering hidden information within various file types while providing a range of forensic analysis capabilities.
+# SteganoScan - Steganography-Focused Analysis Framework
 
-## Features:
-Steganography Analysis: Detects and extracts concealed data within images, audio, videos, and documents.
+SteganoScan is a modular, menu-driven steganography analysis toolkit designed to assist in the detection and extraction of hidden data within media files. Developed as part of my final-year cybersecurity project, this tool consolidates commonly used steganalysis utilities into a single, automated workflow tailored for forensic analysts, CTF participants, and security researchers.
 
-Forensic Examination: Inspects binary data, metadata, and file structures for comprehensive forensic analysis.
+---
 
-Toolset: Integrates multiple steganography and forensic tools, including strings, hexdump, binwalk, steghide, zsteg, exiftool, and foremost.
+## 🎯 Project Overview
 
-User-Friendly Interface: Simple prompts enable easy file input and choice of forensic or steganographic analysis.
+**Objective:**  
+To provide a focused, reliable, and beginner-friendly framework for detecting and analyzing steganography in images and audio files. SteganoScan aims to reduce manual effort in forensic investigations while maintaining strict adherence to steganography-specific techniques.
 
-## Features Overview:
-Strings Analysis: Extract readable text from binary files, search for specific words or strings of certain lengths.
+**Why SteganoScan?**  
+Existing forensic tools often mix general-purpose file analysis with stego detection, leading to bloated workflows. SteganoScan addresses this by isolating and automating proven steganalysis techniques in a controlled, interactive environment.
 
-Binwalk Tool: Identify and extract embedded files within other files, uncover hidden data structures.
+---
 
-Exiftool Insights: Extract metadata embedded within multimedia files, reveal camera details, timestamps, and geolocation data.
+## ✅ Key Features
 
-Hexdump Analysis: Display file contents in hexadecimal or ASCII formats, providing detailed binary insights.
+- 🔍 **Strings Analysis**  
+  Extract printable strings with optional keyword search and length filtering.
 
-Stegsolve Tool: Visualize hidden data within images using color plane manipulation techniques.
+- 🛠 **Binwalk Integration**  
+  Scan files for embedded data and optionally extract hidden content.
 
-Steghide Functionality: Extract concealed data utilizing steganography, providing passphrase-based decryption.
+- 🗂 **ExifTool Metadata Extraction**  
+  Identify hidden metadata within supported file formats.
 
-Foremost Analysis: Assist in file carving and data recovery from digital media, essential in forensic investigations.
+- 🧩 **Hexdump Viewer**  
+  Byte-level inspection for manual anomaly detection.
 
-Zsteg Analysis: Detect hidden data in images through LSB steganography, revealing covert communication payloads.
+- 🟡 **Zsteg Automation**  
+  Detect LSB-based steganography in PNG files.
 
-## Why SteganoScan?
-Security Enhancement: Reveals hidden content, fortifying security measures against covert communication methods.
+- 📊 **Histogram Generation**  
+  Visualize pixel distributions to reveal hidden patterns.
 
-Forensic Assistance: Aids in uncovering concealed evidence or activities in forensic investigations.
+- 🎨 **Color Channel Separation**  
+  Analyze individual RGB channels for stego artifacts.
 
-Versatility: Supports various file formats for steganographic and forensic analysis.
+- 🖼 **Stegsolve Integration**  
+  Launch Stegsolve for advanced layer and color space inspection.
 
-## Usage:
-Installation: Ensure Python and required libraries are installed (see requirements.txt).
-###### pip install -r requirements.txt
-Run SteganoScan: Execute the python file and follow the prompts to input file paths and select analysis options.
-###### python SteganoScan.py
-Analysis Results: View extracted information or forensic analysis outputs for the chosen file.
+- 🚩 **Signature-Based Suspicion Alerts**  
+  Lightweight detection of known suspicious patterns or steganography markers.
 
-## Limitations:
-Effectiveness may vary based on the file type and steganographic method used.
-Specific tools within SteganoScan may be more suitable for certain file formats.
+- 🖥 **Intuitive Menu-Driven Workflow**  
+  Designed for beginners and professionals — no CLI arguments required.
 
-## Requirements:
-Python 3.6 or above
-Libraries: subprocess, os
+---
 
-## Disclaimer:
-SteganoScan is intended for educational and forensic purposes. Users should comply with legal regulations and ethical considerations. The tool's effectiveness may differ based on file types and hidden data nature.
+## 🧰 Supported File Formats
+
+- Image: `.jpg`, `.jpeg`, `.png`, `.bmp`  
+- Audio: `.wav`  
+
+---
+
+## 🏗 Technical Stack
+```bash
+| Component      | Purpose                                 |
+|----------------|-----------------------------------------|
+| Python 3.x     | Core application and logic framework    |
+| `binwalk`      | Detection of hidden files and data      |
+| `exiftool`     | Metadata extraction                    |
+| `foremost`     | File carving and data recovery          |
+| `steghide`     | Hidden data extraction from images/audio|
+| `zsteg`        | LSB steganography detection (PNG)       |
+| `Stegsolve.jar`| Visual layer and filter inspection      |
+
+> The setup script handles automatic installation of all dependencies where possible.
+```
+---
+
+## 🚀 Quick Setup & Execution
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+```
+2. Automated Setup & Launch
+```bash
+./setup.sh
+```
+### The setup script:
+- Installs required system tools
+- Installs zsteg if Ruby is available
+- Downloads Stegsolve.jar if missing
+- Installs Python dependencies
+- Launches the application
+
+### Typical Use Case:
+Launch SteganoScan
+Select a target file via interactive dialog
+Choose desired steganalysis tool from the menu
+Review results directly or export them to the /output folder
+Optional: Visual analysis via Stegsolve
+
+### 📁 Project Structure
+```bash
+SteganoScan/
+├── main.py            # Main application logic (menu-driven)
+├── tools.py           # External tool integrations
+├── utils.py           # File validation, visualization, helpers
+├── requirements.txt   # Python dependencies
+├── setup.sh           # Automated setup and launcher
+├── stegsolve.jar      # Visual stego inspection tool (auto-downloaded)
+├── output/            # Stores exported results
+└── README.md          # Project documentation
+```
+
+## 💡 Technical Learning & Development Takeaways
+This project strengthened my understanding of:
+- Practical application of steganography detection techniques
+- Integration of external security tools into automated Python workflows
+- Secure file handling, validation, and basic anomaly detection principles
+- Interactive tool design suitable for forensic workflows
+- The importance of minimizing manual steps in real-world stego analysis
+- Visual steganalysis techniques (histograms, color channels, Stegsolve)
+- Building modular, scalable security tools for practical environments
+
+## 🔧 Future Enhancements (Planned)
+- Batch analysis mode for large datasets
+- Advanced anomaly detection using stego-specific heuristics
+- Risk scoring system for suspicious files
+- Report generation (e.g., PDF summaries)
+- Optional GUI wrapper for non-technical users
+- Expanded signature database for pattern detection
