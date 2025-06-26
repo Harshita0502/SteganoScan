@@ -76,8 +76,8 @@ Existing forensic tools often mix general-purpose file analysis with stego detec
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/<your-username>/<your-repo>.git](https://github.com/Harshita0502/SteganoScan.git)
+cd SteganoScan
 ```
 2. Automated Setup & Launch
 ```bash
