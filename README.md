@@ -76,7 +76,7 @@ Existing forensic tools often mix general-purpose file analysis with stego detec
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git](https://github.com/Harshita0502/SteganoScan.git)
+git clone https://github.com/Harshita0502/SteganoScan.git
 cd SteganoScan
 ```
 2. Automated Setup & Launch
@@ -110,15 +110,15 @@ SteganoScan/
 └── README.md          # Project documentation
 ```
 ## POC:
-Automated Download:
-Screenshots/Screenshot 2025-06-27 020547.png
-SteganoScan Initialisation:
+- Automated Download:
+[Screenshots/Screenshot 2025-06-27 020547.png](https://github.com/Harshita0502/SteganoScan/blob/main/Screenshots/Screenshot%202025-06-27%20020547.png)
+- SteganoScan Initialisation:
 
-Menu Driven Tool:
+- Menu Driven Tool:
 
-Demo Histogram Scan:
+- Demo Histogram Scan:
 
-Demo Stegsolve Scan:
+- Demo Stegsolve Scan:
 
 
 ## 💡 Technical Learning & Development Takeaways
