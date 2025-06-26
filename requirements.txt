@@ -3,3 +3,6 @@ python>=3.6
 # Required libraries
 subprocess
 os
+matplotlib
+Pillow
+
