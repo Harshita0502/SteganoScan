@@ -111,7 +111,7 @@ SteganoScan/
 ```
 ## POC:
 Automated Download:
-
+Screenshots/Screenshot 2025-06-27 020547.png
 SteganoScan Initialisation:
 
 Menu Driven Tool:
