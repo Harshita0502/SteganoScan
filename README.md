@@ -1,6 +1,6 @@
-# SteganoScan - Steganography-Focused Analysis Framework
+# SteganoScan - Steganography Analysis Framework
 
-SteganoScan is a modular, menu-driven steganography analysis toolkit designed to assist in the detection and extraction of hidden data within media files. Developed as part of my final-year cybersecurity project, this tool consolidates commonly used steganalysis utilities into a single, automated workflow tailored for forensic analysts, CTF participants, and security researchers.
+SteganoScan is a modular, menu-driven steganography analysis toolkit designed to assist in the detection and extraction of hidden data within media files. This tool consolidates commonly used steganalysis utilities into a single, automated workflow tailored for forensic analysts, CTF participants, and security researchers.
 
 ---
 
@@ -110,18 +110,35 @@ SteganoScan/
 └── README.md          # Project documentation
 ```
 ## POC:
-- Automated Download:
-https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020547.png
-- SteganoScan Initialisation:
-https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020620.png
-- Menu Driven Tool:
-https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020726.png
-- File Selection for analysis: 
-https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020649.png
-- Demo Histogram Scan:
-https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020815.png
-- Demo Stegsolve Scan:
-https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020931.png
+- ### Automated Download:
+  
+![Image Alt](https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020547.png)
+
+
+- ### SteganoScan Initialisation:
+  
+![Image Alt](https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020620.png)
+
+
+- ### Menu Driven Tool:
+  
+![Image Alt](https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020726.png)
+
+
+- ### File Selection for analysis:
+  
+![Image Alt](https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020649.png)
+
+
+- ### Demo Histogram Scan:
+  
+![Image Alt](https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020815.png)
+
+
+- ### Demo Stegsolve Scan:
+  
+![Image Alt](https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020931.png)
+
 
 ## 💡 Technical Learning & Development Takeaways
 This project strengthened my understanding of:
