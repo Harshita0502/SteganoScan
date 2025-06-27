@@ -111,15 +111,17 @@ SteganoScan/
 ```
 ## POC:
 - Automated Download:
-[Screenshots/Screenshot 2025-06-27 020547.png](https://github.com/Harshita0502/SteganoScan/blob/main/Screenshots/Screenshot%202025-06-27%20020547.png)
+https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020547.png
 - SteganoScan Initialisation:
-
+https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020620.png
 - Menu Driven Tool:
-
+https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020726.png
+- File Selection for analysis: 
+https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020649.png
 - Demo Histogram Scan:
-
+https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020815.png
 - Demo Stegsolve Scan:
-
+https://github.com/Harshita0502/SteganoScan/blob/f8e38f7def9e92858793aeab1d5f8df757a71977/Screenshots/Screenshot%202025-06-27%20020931.png
 
 ## 💡 Technical Learning & Development Takeaways
 This project strengthened my understanding of:
